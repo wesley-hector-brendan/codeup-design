@@ -1,6 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+/*font-family: 'Anton', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+/*font-family: 'Abel', sans-serif;*/
 body {
     background-color: rgba(128, 128, 128, 0.72);
 }
-h2 {
-    /*font-size: .8em;*/
+.cdesign{
+    margin-top: 1.5em;
+}
+.AbsoluteLogo{
+    position: absolute;
+    top: 7px;
+    right: 110px;
+}
+.naav{
+    list-style: none;
+    display: inline-block;
+}
+.nav-link{
+    color: black;
+}
+h1{
+    margin: 0;
+    padding: 0;
+    font-size: 64px;
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    font-size: 48px;
+    font-family: 'Anton', sans-serif;
+}
+h4{
+    font-size: 32px;
+    font-family: 'Anton', sans-serif;
+}
+h5{
+    font-size: 28px;
+    font-family: 'Anton', sans-serif;
+}
+.visdes{
+    font-size: 64px;
 }
