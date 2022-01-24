@@ -13,10 +13,7 @@ body {
     top: 7px;
     right: 110px;
 }
-.naav{
-    list-style: none;
-    display: inline-block;
-}
+
 .nav-link{
     color: black;
 }
@@ -40,4 +37,31 @@ h5{
 }
 .visdes{
     font-size: 64px;
+}
+
+/*.circles:nth-of-type(1) {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    border-radius: 50%;*/
+/*    border:1px solid red;*/
+/*    line-height: 100px;*/
+/*    text-align: center;*/
+/*    background-color: red;*/
+/*}*/
+
+/*circles:nth-of-type(2) {*/
+/*    height: 100px;*/
+/*    width: 100px;*/
+/*    border-radius: 50%;*/
+/*    border:1px solid red;*/
+/*    line-height: 100px;*/
+/*    text-align: center;*/
+/*    background-color: red;*/
+/*}*/
+
+.circle1 {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    border: 8px solid white;
 }
