@@ -100,3 +100,51 @@ h5{
         margin: 0;
     }
 }
+
+@media screen and (min-width:1024px) {
+    .wImg{
+        height: 207px;
+    }
+    p.text-center{
+        text-align: left;
+    }
+    .AbsoluteLogo{
+        top: 7px;
+        left: 20px;
+    }
+    .cdesign{
+        position: absolute;
+        top: -13px;
+        left: 130px;
+    }
+    .nav{
+        position: absolute;
+        top: 25px;
+        left: 700px;
+    }
+    .nav-item{
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:1440px) {
+    .wImg{
+        height: 299.5px;
+    }
+    .AbsoluteLogo{
+        top: 7px;
+        left: 320px;
+    }
+    .cdesign{
+        position: absolute;
+        top: -13px;
+        left: 430px;
+    }
+    .nav{
+        position: absolute;
+        top: 25px;
+        left: 900px;
+    }
+    .nav-item{
+        margin-right: 0;
+    }
+}
