@@ -71,15 +71,32 @@ h5{
     border-radius: 50%;
     margin-right: .5em;
 }
+.myBreak{
+    border-bottom: 1px solid gray;
+}
 
 @media screen and (max-width:426px) {
     .exImg {
         display: none;
     }
+    .myBreak{
+        display: none;
+    }
 }
 
-/*@media screen and (max-width:420px) {*/
-/*    .exImg {*/
-/*        display: none;*/
-/*    }*/
-/*}*/
+@media screen and (min-width:768px) {
+    .AbsoluteLogo{
+        right: 44%;
+    }
+    .nav{
+        position: absolute;
+        top: 25px;
+        left: 150px;
+    }
+    .itemMargin{
+        margin-right: 10em;
+    }
+    .circle1{
+        margin: 0;
+    }
+}
